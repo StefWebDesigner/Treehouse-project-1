@@ -16,6 +16,7 @@ body {
 a {
   text-decoration: none;
   color: #999;
+  
 }
 a:hover {
   color: #6633ff;
@@ -67,7 +68,6 @@ header {
 .header-exp {
   text-align: center;
   font-size: 40px;
-  /* Add the Stefan cover */
   background: url('images/stefshowcov-rev.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
@@ -80,9 +80,10 @@ header .profile-image {
   margin-top: 50px;
   width: 200px;
   height: 270px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 60%;
+  border-style: ridge;
+  border: 5px solid white;
+  transition: all .3s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -178,6 +179,11 @@ a.social {
 }
 /* Currently tyring to find a website icon */
 
+
+a.pinterest {
+  background-image: url(https://img.icons8.com/fluent/48/000000/domain.png);
+
+}
 
 a.website {
 background-image: url(https://img.icons8.com/fluent/48/000000/domain.png);
